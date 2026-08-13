@@ -58,6 +58,8 @@ directorio de trabajo.
 
 ## Despliegue en Render
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/sofimq167/laberinto-cazador-evasor-app)
+
 El repositorio incluye `render.yaml`, así que basta con crear un **Blueprint**
 en Render apuntando a este repo: detecta el servicio Docker, expone `$PORT` y
 usa `/api/health` como health check.
