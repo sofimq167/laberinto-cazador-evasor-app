@@ -1,0 +1,19 @@
+# El paper no forma parte de la imagen (evita ~56 MB de contexto de build)
+paper/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.git
+.gitignore
+node_modules/
+venv/
+.envrc
+# Avoid copying compose and docs into backend image context layer cache
+Dockerfile.frontend
+Dockerfile.backend
+docker-compose.yml
+README.md
